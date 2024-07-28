@@ -23,6 +23,7 @@ kubernetes
 - kubectl cluster-info
 - kubectl get nodes
 - minikube delete
+- eval $(minikube docker-env) # to build docker image locally and deploy on minikube cluster
 
 
 M1
