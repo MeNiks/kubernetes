@@ -25,6 +25,7 @@ https://github.com/MeNiks/docker/blob/main/README.md
 - kubectl get nodes
 - minikube delete
 - eval $(minikube docker-env) # to build docker image locally and deploy on minikube cluster
+- kubectl create deployment <deployment-name> --image=<image-name> [--dry-run]
 
 
 M1
