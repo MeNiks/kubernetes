@@ -6,6 +6,7 @@ kubernetes
 # minikube
  - https://minikube.sigs.k8s.io/docs/start/
 
+# Commands
 - brew install kubectl
 - brew install hyperkit
 - brew install minikube
@@ -17,7 +18,7 @@ kubernetes
 - or
 - minikube start hyperkit
 - minikube status
-
+- minikube dashboard
 
 
 M1
