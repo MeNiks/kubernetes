@@ -19,6 +19,10 @@ kubernetes
 - minikube start hyperkit
 - minikube status
 - minikube dashboard
+- minikube status
+- kubectl cluster-info
+- kubectl get nodes
+- minikube delete
 
 
 M1
