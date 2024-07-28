@@ -3,6 +3,9 @@ kubernetes
 
 
 
+# minikube
+ - https://minikube.sigs.k8s.io/docs/start/
+
 - brew install kubectl
 - brew install hyperkit
 - brew install minikube
