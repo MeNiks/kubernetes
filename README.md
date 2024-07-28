@@ -26,6 +26,9 @@ https://github.com/MeNiks/docker/blob/main/README.md
 - minikube delete
 - eval $(minikube docker-env) # to build docker image locally and deploy on minikube cluster
 - kubectl create deployment <deployment-name> --image=<image-name> [--dry-run]
+- kubectl get deployments
+- kubectl rollout history nginx-deployment
+- kubectl rollout history deployment/nginx-deployment --revision=1
 
 
 M1
