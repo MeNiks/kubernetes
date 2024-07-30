@@ -46,8 +46,11 @@ Also used for templating
 
 ![image](https://github.com/user-attachments/assets/6b5e116c-0594-4eb1-8005-00775d734191)
 
+![image](https://github.com/user-attachments/assets/c302abfd-804d-42d5-a8bf-57d96d20c15d)
+
 
 To install
 - helm install --values=<my-values.yaml> <chart-name> --set version=1.0
 - helm upgrade <chart-name>
+  Ex - helm upgrate --install <name> <folder-name> --namespace integration -f <folder-name/values-config.yaml>
 - helm rollback <chart-name>
