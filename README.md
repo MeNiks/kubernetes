@@ -1,7 +1,9 @@
 # kubernetes
-kubernetes
-
-
+- kubectl apply -f any-file.yaml
+  - service.yaml
+  - deployment.yaml
+  - config_map.yaml
+  - namespace_creation.yaml,etc
 
 # minikube
  - https://minikube.sigs.k8s.io/docs/start/
