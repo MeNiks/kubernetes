@@ -27,3 +27,17 @@ M1
 - minikube start --driver=docker --alsologtostderr
 - docker ps | grep minikube
 - minikube delete --all --purge
+
+
+# Helm
+Is used to managed flavours ex- integration/staging/prod
+Has folders
+- values.yaml
+- values-integration.yaml
+- values-prod.yaml
+Also used for templating
+![image](https://github.com/user-attachments/assets/bb75aac9-a1b8-49b2-a566-1a19dff1ecf9)
+
+
+To install
+- 
