@@ -65,5 +65,5 @@ Also used for templating
 To install
 - helm install --values=<my-values.yaml> <chart-name> --set version=1.0
 - helm upgrade <chart-name>
-  Ex - helm upgrate --install <name> <folder-name> --namespace integration -f <folder-name/values-config.yaml>
+  Ex - helm upgrade --install <release> <char-folder-name> --namespace integration -f <char-folder-name>/values.yaml -f <char-folder-name>/values-integration.yaml --set project.image.tag=1.0.4-integration --history-max 3 --dry-run --debug > output.yaml
 - helm rollback <chart-name>
