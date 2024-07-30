@@ -36,8 +36,18 @@ Has folders
 - values-integration.yaml
 - values-prod.yaml
 Also used for templating
-![image](https://github.com/user-attachments/assets/bb75aac9-a1b8-49b2-a566-1a19dff1ecf9)
+![image](https://github.com/user-attachments/assets/ddd5890e-7fa7-4135-bace-4e21b9c4fb72)
+
+![image](https://github.com/user-attachments/assets/79414e3c-f360-4fa2-8e1a-7e693d4ce2d8)
+
+![image](https://github.com/user-attachments/assets/bb731c27-c8d6-453d-ad65-1e541e987a76)
+
+![image](https://github.com/user-attachments/assets/b44a1274-3a79-482a-b106-6bf5a26ee0ca)
+
+![image](https://github.com/user-attachments/assets/6b5e116c-0594-4eb1-8005-00775d734191)
 
 
 To install
-- 
+- helm install --values=<my-values.yaml> <chart-name> --set version=1.0
+- helm upgrade <chart-name>
+- helm rollback <chart-name>
