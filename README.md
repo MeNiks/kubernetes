@@ -20,6 +20,17 @@ kubernetes
 - minikube status
 - minikube dashboard
 
+# Kubectl
+
+```
+# kubectl apply -f namespace-integration.yaml
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: integration
+```
+
+
 
 M1
 - curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-darwin-arm64
